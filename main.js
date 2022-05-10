@@ -65,7 +65,12 @@ function createDefaultWindow() {
       contextIsolation: false
     }
   });
-  win.webContents.openDevTools();
+  if(process.env.NODE_ENV === 'development'){
+    win.webContents.openDevTools();
+  }
+  if((process.env.NODE_ENV != 'development') && win.webContents.isDevToolsOpened()){
+    win.webContents.closeDevTools();
+  }
   win.on('closed', () => {
     win = null;
   });
