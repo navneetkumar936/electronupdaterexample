@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.6",
+  "version": "0.8.7",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -32,13 +32,6 @@
     "linux": {
       "category": "your.app.category.type",
       "target": "AppImage"
-    },
-    "publish": [
-      {
-        "provider": "github",
-        "owner": "navneetkumar936",
-        "repo": "https://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@github.com/navneetkumar936/electron_second_updater"
-      }
-    ]
+    }
   }
 }
