@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.8.9",
+  "version": "0.9.1",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -18,7 +18,7 @@
     "electron-updater": "^4.3.9"
   },
   "build": {
-    "appId": "com.github.navneetkumar936.electron_second_updater",
+    "appId": "com.github.navneetkumar936.electronupdaterexample",
     "afterSign": "./build/notarize.js",
     "mac": {
       "category": "your.app.category.type"
